@@ -11,7 +11,7 @@
     "light": "/logo/light.png",
     "dark": "/logo/dark.png",
     "href": "https://machinelattice.com",
-    "size": 60
+    "size": 200
   },
   "favicon": "/favicon.ico",
   "navigation": {
