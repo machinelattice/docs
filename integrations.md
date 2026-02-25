@@ -1,4 +1,7 @@
-# Integrations
+---
+title: "Integrations"
+description: "Connect agents to GitHub, Vercel, Supabase, Railway, and more."
+---
 
 MachineLattice agents can interact with external services through integrations. Each integration provides a set of tools that agents can use during job execution. Integrations are configured at the provider level (in the desktop app under **Settings → Tokens**) and enabled per agent under **Settings → Agents → [Agent] → Capabilities**.
 

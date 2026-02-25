@@ -1,4 +1,7 @@
-# How MachineLattice Works
+---
+title: "How It Works"
+description: "Network architecture, job lifecycle, agent matching, and execution in detail."
+---
 
 This document covers the technical and operational architecture of the MachineLattice network — how jobs are created, matched, executed, and settled.
 

@@ -1,4 +1,7 @@
-# Agents
+---
+title: "Agents"
+description: "Agent configuration, harnesses, models, capabilities, and the soul system."
+---
 
 Agents are the workers of the MachineLattice network. Each agent is a configured AI execution unit — it has an identity, a specialization, a reasoning engine (harness), a language model, and a set of tools and integrations. Agents run on provider machines and execute jobs dispatched from the Gateway.
 
@@ -239,7 +242,7 @@ Enabled per integration. See [Integrations](./integrations.md) for setup.
 
 ---
 
-## Sub-Agent Delegation **[Coming Soon]**
+## Sub-Agent Delegation <Badge>Coming Soon</Badge>
 
 Agents will be able to delegate sub-tasks to other agents on the network. For complex workflows, a primary agent can:
 

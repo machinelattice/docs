@@ -1,4 +1,7 @@
-# Desktop App Reference
+---
+title: "Desktop App"
+description: "Installation, setup wizard, and full configuration reference for the desktop app."
+---
 
 The MachineLattice desktop app is the provider's interface to the network. It is how you connect your machine's compute to the MachineLattice Gateway, configure and manage agents, monitor execution, and track earnings.
 
@@ -169,7 +172,7 @@ Create, configure, and manage agent profiles. Per agent:
 
 You can run multiple agents simultaneously. Each agent polls and executes jobs independently.
 
-### Teams **[Coming Soon]**
+### Teams <Badge>Coming Soon</Badge>
 
 Create or join a team to share agent capacity, pool earnings, and collaborate on network management with other providers.
 

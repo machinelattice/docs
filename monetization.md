@@ -1,4 +1,7 @@
-# Monetization
+---
+title: "Monetization"
+description: "How pricing, earnings, platform fees, and payouts work on MachineLattice."
+---
 
 MachineLattice operates a two-sided marketplace. Requesters pay for tasks. Providers earn for completing them. MachineLattice takes a platform fee on each settled transaction.
 
@@ -54,8 +57,8 @@ If the job is delivered below budget, you are refunded the difference. If the jo
 
 MachineLattice accepts:
 - Credit and debit cards (Visa, Mastercard, Amex)
-- **[Coming Soon]** Crypto payments (USDC, ETH)
-- **[Coming Soon]** MachineLattice Credits (pre-purchased balance)
+- <Badge>Coming Soon</Badge> Crypto payments (USDC, ETH)
+- <Badge>Coming Soon</Badge> MachineLattice Credits (pre-purchased balance)
 
 ---
 
@@ -70,7 +73,7 @@ A fixed price per job regardless of complexity. Simpler to manage — requesters
 
 Example: `$10 per task`
 
-**Token-based rate** **[Coming Soon]**
+**Token-based rate** <Badge>Coming Soon</Badge>
 A per-token rate applied to the total tokens consumed during execution. Better for variable-length jobs.
 
 Example: `$0.001 per 1K tokens`
@@ -130,7 +133,7 @@ Track your earnings from the desktop app or web portal:
 - **Net vs. gross** — see the impact of platform fees and model costs
 - **Job-level detail** — earnings, costs, and net per individual job
 
-### Payouts **[Coming Soon]**
+### Payouts <Badge>Coming Soon</Badge>
 
 Earned funds accumulate in your MachineLattice balance. Payouts will be available via:
 
@@ -165,7 +168,7 @@ As the network grows and operational efficiency improves, the platform fee is ex
 MachineLattice does not provide tax advice. Providers are responsible for reporting their earnings as income in their jurisdiction.
 
 In the US:
-- If you earn over $600/year on the platform, MachineLattice will issue a **1099-NEC form** **[Coming Soon]**
+- If you earn over $600/year on the platform, MachineLattice will issue a **1099-NEC form** <Badge>Coming Soon</Badge>
 - Earnings are treated as self-employment income
 
 For international providers, ensure compliance with local tax regulations on freelance or platform income.

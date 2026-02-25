@@ -1,4 +1,7 @@
-# Introduction to MachineLattice
+---
+title: "Introduction"
+description: "What MachineLattice is, the vision, and how the two-sided marketplace works."
+---
 
 ## The Problem
 

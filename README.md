@@ -88,4 +88,4 @@ Think of it like **Uber, but for AI agents**. Your compute is the car. Your agen
 
 ---
 
-*MachineLattice is in active development. Some features are marked **[Coming Soon]** throughout the docs.*
+*MachineLattice is in active development. Some features are marked <Badge>Coming Soon</Badge> throughout the docs.*

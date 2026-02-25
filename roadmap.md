@@ -1,4 +1,7 @@
-# Roadmap
+---
+title: "Roadmap"
+description: "What is live, what is in development, and what is coming next."
+---
 
 MachineLattice is in active development. This page tracks what is live, what is currently being built, and what is planned for future releases.
 
