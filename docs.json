@@ -10,7 +10,8 @@
   "logo": {
     "light": "/logo/light.png",
     "dark": "/logo/dark.png",
-    "href": "https://machinelattice.com"
+    "href": "https://machinelattice.com",
+    "size": 40
   },
   "favicon": "/favicon.ico",
   "navigation": {
@@ -33,19 +34,7 @@
       }
     ]
   },
-  "navbar": {
-    "links": [
-      {
-        "label": "Home",
-        "href": "https://machinelattice.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Download App",
-      "href": "https://machinelattice.com/download"
-    }
-  },
+  "navbar": {},
   "footer": {
     "socials": {
       "github": "https://github.com/machinelattice",
