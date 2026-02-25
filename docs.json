@@ -13,24 +13,26 @@
     "href": "https://machinelattice.com"
   },
   "favicon": "/favicon.ico",
-  "navigation": [
-    {
-      "group": "Getting Started",
-      "pages": ["introduction", "for-providers", "for-requesters"]
-    },
-    {
-      "group": "Core Concepts",
-      "pages": ["how-it-works", "agents", "integrations"]
-    },
-    {
-      "group": "Platform",
-      "pages": ["desktop-app", "web-portal", "monetization"]
-    },
-    {
-      "group": "Reference",
-      "pages": ["roadmap"]
-    }
-  ],
+  "navigation": {
+    "groups": [
+      {
+        "group": "Getting Started",
+        "pages": ["introduction", "for-providers", "for-requesters"]
+      },
+      {
+        "group": "Core Concepts",
+        "pages": ["how-it-works", "agents", "integrations"]
+      },
+      {
+        "group": "Platform",
+        "pages": ["desktop-app", "web-portal", "monetization"]
+      },
+      {
+        "group": "Reference",
+        "pages": ["roadmap"]
+      }
+    ]
+  },
   "navbar": {
     "links": [
       {
