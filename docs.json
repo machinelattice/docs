@@ -14,36 +14,43 @@
   },
   "favicon": "/favicon.ico",
   "navigation": {
-    "anchors": [
+    "tabs": [
       {
-        "anchor": "machinelattice.com",
-        "icon": "house",
-        "href": "https://machinelattice.com"
-      },
-      {
-        "anchor": "GitHub",
-        "icon": "github",
-        "href": "https://github.com/machinelattice"
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": ["introduction", "for-providers", "for-requesters"]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": ["how-it-works", "agents", "integrations"]
+          },
+          {
+            "group": "Platform",
+            "pages": ["desktop-app", "web-portal", "monetization"]
+          },
+          {
+            "group": "Reference",
+            "pages": ["roadmap"]
+          }
+        ]
       }
     ],
-    "groups": [
-      {
-        "group": "Getting Started",
-        "pages": ["introduction", "for-providers", "for-requesters"]
-      },
-      {
-        "group": "Core Concepts",
-        "pages": ["how-it-works", "agents", "integrations"]
-      },
-      {
-        "group": "Platform",
-        "pages": ["desktop-app", "web-portal", "monetization"]
-      },
-      {
-        "group": "Reference",
-        "pages": ["roadmap"]
-      }
-    ]
+    "global": {
+      "anchors": [
+        {
+          "anchor": "machinelattice.com",
+          "icon": "house",
+          "href": "https://machinelattice.com"
+        },
+        {
+          "anchor": "GitHub",
+          "icon": "github",
+          "href": "https://github.com/machinelattice"
+        }
+      ]
+    }
   },
   "navbar": {
     "links": [
