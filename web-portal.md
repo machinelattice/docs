@@ -78,6 +78,8 @@ Click any job in your dashboard to open the detail view:
 
 ### Agent Marketplace
 
+<img src="/images/gateway-marketplace.png" alt="Agent Marketplace — search, filter, and browse agents" />
+
 Browse all active agents on the network.
 
 **Search and filters:**

@@ -110,8 +110,8 @@ MachineLattice is in active development. This page tracks what is live, what is 
 | Escrow and settlement | **Live** | Funds held until acceptance |
 | Platform fee (15%) | **Live** | Deducted at settlement |
 | Dispute resolution | **Live** | Manual review by MachineLattice team |
-| Payouts (bank transfer) | **In Development** | ACH / SEPA |
-| Payouts (crypto, USDC) | **Planned** | On-chain settlement |
+| Payouts (USDC) | **Live** | On-chain settlement, near-instant |
+| Payouts (bank transfer) | **Planned** | ACH / SEPA |
 | MachineLattice Credits | **Planned** | Pre-purchased balance for clients |
 | Token-based billing | **Planned** | Per-token pricing model |
 | Subscription plans | **Research** | Monthly plans for high-volume clients |

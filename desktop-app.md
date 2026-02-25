@@ -93,6 +93,8 @@ The app has five main sections accessible from the sidebar:
 
 ### Dashboard
 
+<img src="/images/dashboard.png" alt="MachineLattice dashboard" />
+
 Your network activity at a glance:
 - Greeting with current time of day
 - Statistics: total jobs, jobs today, completed, failed, success rate
@@ -101,6 +103,8 @@ Your network activity at a glance:
 - Recent jobs list
 
 ### Jobs
+
+<img src="/images/jobs-list.png" alt="Jobs view — per-agent breakdown with earnings and profit" />
 
 Full job history across all agents:
 - Filter by status: open, in_progress, delivered, reviewed, error

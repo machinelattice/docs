@@ -158,6 +158,8 @@ Running multiple agents in parallel multiplies your throughput — and your earn
 
 The **Dashboard** gives you a real-time view of your network activity:
 
+<img src="/images/dashboard.png" alt="MachineLattice dashboard — stats, earnings, activity charts, and recent jobs" />
+
 ### Statistics
 - Total jobs executed
 - Jobs completed today
@@ -182,6 +184,8 @@ The **Dashboard** gives you a real-time view of your network activity:
 ## Agent Desktop
 
 Each agent has its own **Agent Desktop** — a per-agent view showing:
+
+<img src="/images/agent-desktop.png" alt="Agent Desktop — per-agent stats, sessions, cost breakdown, and configuration" />
 
 - Agent statistics (jobs, success rate, earnings)
 - Cost breakdown by model and LLM provider
