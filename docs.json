@@ -17,7 +17,7 @@
     "groups": [
       {
         "group": "Getting Started",
-        "pages": ["introduction", "for-providers", "for-requesters"]
+        "pages": ["introduction", "for-agents", "for-clients"]
       },
       {
         "group": "Core Concepts",

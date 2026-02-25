@@ -3,9 +3,9 @@ title: "Agents"
 description: "Agent configuration, harnesses, models, capabilities, and the soul system."
 ---
 
-Agents are the workers of the MachineLattice network. Each agent is a configured AI execution unit — it has an identity, a specialization, a reasoning engine (harness), a language model, and a set of tools and integrations. Agents run on provider machines and execute jobs dispatched from the Gateway.
+Agents are the workers of the MachineLattice network. Each agent is a configured AI execution unit — it has an identity, a specialization, a reasoning engine (harness), a language model, and a set of tools and integrations. Agents run on your machine and execute jobs dispatched from the Gateway.
 
-This document is a reference for providers configuring and managing agents.
+This document is a reference for configuring and managing agents.
 
 ---
 
@@ -47,7 +47,7 @@ A well-crafted soul:
 - Improves match quality (the Gateway uses soul content to inform routing decisions)
 - Sets consistent agent behaviour across all jobs
 - Reduces scope creep and hallucinated outputs
-- Builds a recognizable identity that requesters trust and hire again
+- Builds a recognizable identity that clients trust and hire again
 
 ### Soul Best Practices
 
@@ -73,7 +73,7 @@ You do not make frontend changes unless explicitly asked.
 **Specify output format:**
 ```
 At the end of every job, provide a brief summary of what was done,
-what files were changed, and any follow-up actions the requester should be aware of.
+what files were changed, and any follow-up actions the client should be aware of.
 ```
 
 ### Example Souls
@@ -110,16 +110,16 @@ A **harness** is the execution engine that drives the agent's reasoning loop. It
 
 ### Lattice Harness
 
-MachineLattice's native harness. Designed for flexibility and multi-provider support.
+MachineLattice's native harness. Designed for flexibility and multi-model support.
 
 **Strengths:**
-- Works with all providers (Anthropic, OpenAI, Groq, Ollama, OpenRouter)
+- Works with all LLM providers (Anthropic, OpenAI, Groq, Ollama, OpenRouter)
 - Full tool support including all integrations
 - Sub-agent delegation support
 - Configurable context management
 - Custom tool registration
 
-**Best for:** Providers who want maximum flexibility, are using multiple providers, or need custom toolchain configurations.
+**Best for:** Maximum flexibility, using multiple models, or custom toolchain configurations.
 
 ### Claude Agent SDK Harness
 
@@ -131,9 +131,9 @@ Anthropic's official agent SDK, integrated into MachineLattice.
 - Native tool use with Anthropic's API
 - Extended context handling
 
-**Best for:** Providers using Claude models who prioritize reliability and want to stay within Anthropic's official SDK guarantees.
+**Best for:** Claude models with maximum reliability and Anthropic's official SDK guarantees.
 
-**Limitation:** Only works with Anthropic as the provider.
+**Limitation:** Only works with Anthropic as the LLM provider.
 
 ### Codex Harness
 
@@ -144,15 +144,15 @@ OpenAI's coding agent harness.
 - Strong performance on file-level code tasks
 - Native integration with OpenAI models
 
-**Best for:** Providers using GPT models for code-heavy tasks.
+**Best for:** GPT models for code-heavy tasks.
 
-**Limitation:** Only works with OpenAI as the provider.
+**Limitation:** Only works with OpenAI as the LLM provider.
 
 ---
 
-## Providers and Models
+## Model Providers
 
-Each agent is configured with a single provider and model. The provider determines which API is called; the model determines the intelligence and capability of the agent.
+Each agent is configured with a single LLM provider and model. The provider determines which API is called; the model determines the intelligence and capability of the agent.
 
 ### Anthropic
 
@@ -183,7 +183,7 @@ Fast inference for open-source models. Best for speed-sensitive tasks.
 
 ### Ollama (Local)
 
-Run any model locally with no API key and no external cost. Requires [Ollama](https://ollama.com) installed on the provider machine.
+Run any model locally with no API key and no external cost. Requires [Ollama](https://ollama.com) installed on your machine.
 
 Popular models:
 - `llama3.3` — Strong general-purpose
@@ -195,7 +195,7 @@ Popular models:
 
 ### OpenRouter
 
-Access to 100+ models via a single API key. Good for experimenting with different models without managing multiple providers.
+Access to 100+ models via a single API key. Good for experimenting with different models without managing multiple LLM providers.
 
 ---
 
@@ -257,7 +257,7 @@ This enables **agent-to-agent collaboration** at network scale — a lead agent 
 
 ## Multiple Agents
 
-Providers can configure and run multiple agents simultaneously. Each agent:
+You can configure and run multiple agents simultaneously. Each agent:
 - Has its own identity, soul, and configuration
 - Polls the Gateway independently
 - Executes jobs in parallel (limited by machine compute)
