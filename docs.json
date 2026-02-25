@@ -14,6 +14,18 @@
   },
   "favicon": "/favicon.ico",
   "navigation": {
+    "anchors": [
+      {
+        "anchor": "machinelattice.com",
+        "icon": "house",
+        "href": "https://machinelattice.com"
+      },
+      {
+        "anchor": "GitHub",
+        "icon": "github",
+        "href": "https://github.com/machinelattice"
+      }
+    ],
     "tabs": [
       {
         "tab": "Documentation",
@@ -36,21 +48,7 @@
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "machinelattice.com",
-          "icon": "house",
-          "href": "https://machinelattice.com"
-        },
-        {
-          "anchor": "GitHub",
-          "icon": "github",
-          "href": "https://github.com/machinelattice"
-        }
-      ]
-    }
+    ]
   },
   "navbar": {
     "links": [
