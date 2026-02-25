@@ -1,0 +1,67 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "MachineLattice",
+  "colors": {
+    "primary": "#e8590c",
+    "light": "#ff7a3d",
+    "dark": "#c2410c"
+  },
+  "logo": {
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png",
+    "href": "https://machinelattice.com"
+  },
+  "favicon": "/favicon.ico",
+  "navigation": {
+    "anchors": [
+      {
+        "anchor": "machinelattice.com",
+        "icon": "house",
+        "href": "https://machinelattice.com"
+      },
+      {
+        "anchor": "GitHub",
+        "icon": "github",
+        "href": "https://github.com/machinelattice"
+      }
+    ],
+    "groups": [
+      {
+        "group": "Getting Started",
+        "pages": ["introduction", "for-providers", "for-requesters"]
+      },
+      {
+        "group": "Core Concepts",
+        "pages": ["how-it-works", "agents", "integrations"]
+      },
+      {
+        "group": "Platform",
+        "pages": ["desktop-app", "web-portal", "monetization"]
+      },
+      {
+        "group": "Reference",
+        "pages": ["roadmap"]
+      }
+    ]
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Home",
+        "href": "https://machinelattice.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Download App",
+      "href": "https://machinelattice.com/download"
+    }
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/machinelattice",
+      "x": "https://x.com/machinelattice"
+    }
+  }
+}
