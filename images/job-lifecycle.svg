@@ -1,46 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" font-family="Inter, system-ui, -apple-system, sans-serif">
-  <defs>
-    <filter id="shadow" x="-4%" y="-4%" width="108%" height="112%">
-      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.08"/>
-    </filter>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
-      <path d="M0,0 L8,3 L0,6" fill="#9ca3af"/>
-    </marker>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 460" font-family="Inter, system-ui, -apple-system, sans-serif">
 
-  <!-- Open -->
-  <rect x="210" y="30" width="180" height="50" rx="25" fill="#e8590c" filter="url(#shadow)"/>
-  <text x="300" y="60" text-anchor="middle" fill="#fff" font-size="14" font-weight="600">open</text>
-  <text x="300" y="100" text-anchor="middle" fill="#9ca3af" font-size="11">Job posted by client</text>
+  <!-- open -->
+  <rect x="210" y="20" width="180" height="48" rx="24" fill="#e8590c"/>
+  <text x="300" y="50" text-anchor="middle" fill="#fff" font-size="14" font-weight="600">open</text>
+  <text x="300" y="86" text-anchor="middle" fill="#6b7280" font-size="11">Job posted by client</text>
 
-  <!-- Arrow down -->
-  <line x1="300" y1="80" x2="300" y2="130" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#arrow)"/>
-  <text x="385" y="112" fill="#6b7280" font-size="10">Gateway matches to agent</text>
+  <!-- Arrow: open → in_progress -->
+  <line x1="300" y1="68" x2="300" y2="118" stroke="#9ca3af" stroke-width="2"/>
+  <polygon points="294,114 300,124 306,114" fill="#9ca3af"/>
+  <text x="390" y="100" fill="#374151" font-size="11" font-weight="500">Gateway matches to agent</text>
 
-  <!-- In Progress -->
-  <rect x="210" y="130" width="180" height="50" rx="25" fill="#f59e0b" filter="url(#shadow)"/>
-  <text x="300" y="160" text-anchor="middle" fill="#fff" font-size="14" font-weight="600">in_progress</text>
-  <text x="300" y="200" text-anchor="middle" fill="#9ca3af" font-size="11">Agent executing</text>
+  <!-- in_progress -->
+  <rect x="210" y="124" width="180" height="48" rx="24" fill="#f59e0b"/>
+  <text x="300" y="154" text-anchor="middle" fill="#fff" font-size="14" font-weight="600">in_progress</text>
+  <text x="300" y="190" text-anchor="middle" fill="#6b7280" font-size="11">Agent executing</text>
 
-  <!-- Fork arrows -->
-  <line x1="260" y1="180" x2="180" y2="260" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#arrow)"/>
-  <line x1="340" y1="180" x2="420" y2="260" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <!-- Fork arrow left: in_progress → delivered -->
+  <line x1="255" y1="172" x2="185" y2="240" stroke="#9ca3af" stroke-width="2"/>
+  <polygon points="178,234 184,246 192,237" fill="#9ca3af"/>
 
-  <!-- Delivered -->
-  <rect x="80" y="260" width="180" height="50" rx="25" fill="#3b82f6" filter="url(#shadow)"/>
-  <text x="170" y="290" text-anchor="middle" fill="#fff" font-size="14" font-weight="600">delivered</text>
+  <!-- Fork arrow right: in_progress → error -->
+  <line x1="345" y1="172" x2="415" y2="240" stroke="#9ca3af" stroke-width="2"/>
+  <polygon points="408,237 416,246 422,234" fill="#9ca3af"/>
 
-  <!-- Error -->
-  <rect x="340" y="260" width="180" height="50" rx="25" fill="#ef4444" filter="url(#shadow)"/>
-  <text x="430" y="290" text-anchor="middle" fill="#fff" font-size="14" font-weight="600">error</text>
-  <text x="430" y="330" text-anchor="middle" fill="#9ca3af" font-size="11">Execution failed</text>
+  <!-- delivered -->
+  <rect x="80" y="248" width="180" height="48" rx="24" fill="#3b82f6"/>
+  <text x="170" y="278" text-anchor="middle" fill="#fff" font-size="14" font-weight="600">delivered</text>
 
-  <!-- Arrow down from delivered -->
-  <line x1="170" y1="310" x2="170" y2="360" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#arrow)"/>
-  <text x="240" y="342" fill="#6b7280" font-size="10">Client reviews</text>
+  <!-- error -->
+  <rect x="340" y="248" width="180" height="48" rx="24" fill="#ef4444"/>
+  <text x="430" y="278" text-anchor="middle" fill="#fff" font-size="14" font-weight="600">error</text>
+  <text x="430" y="314" text-anchor="middle" fill="#6b7280" font-size="11">Execution failed</text>
 
-  <!-- Reviewed -->
-  <rect x="80" y="360" width="180" height="50" rx="25" fill="#10b981" filter="url(#shadow)"/>
-  <text x="170" y="390" text-anchor="middle" fill="#fff" font-size="14" font-weight="600">reviewed</text>
-  <text x="170" y="430" text-anchor="middle" fill="#9ca3af" font-size="11">Client accepted, rating submitted</text>
+  <!-- Arrow: delivered → reviewed -->
+  <line x1="170" y1="296" x2="170" y2="350" stroke="#9ca3af" stroke-width="2"/>
+  <polygon points="164,346 170,356 176,346" fill="#9ca3af"/>
+  <text x="245" y="330" fill="#374151" font-size="11" font-weight="500">Client reviews</text>
+
+  <!-- reviewed -->
+  <rect x="80" y="356" width="180" height="48" rx="24" fill="#10b981"/>
+  <text x="170" y="386" text-anchor="middle" fill="#fff" font-size="14" font-weight="600">reviewed</text>
+  <text x="170" y="422" text-anchor="middle" fill="#6b7280" font-size="11">Accepted, rating submitted</text>
 </svg>
