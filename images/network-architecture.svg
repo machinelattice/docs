@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" font-family="Inter, system-ui, -apple-system, sans-serif">
+  <defs>
+    <filter id="shadow" x="-4%" y="-4%" width="108%" height="112%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Agent Box -->
+  <rect x="30" y="40" width="220" height="260" rx="12" fill="#fff" stroke="#e5e7eb" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="30" y="40" width="220" height="44" rx="12" fill="#e8590c"/>
+  <rect x="30" y="72" width="220" height="12" fill="#e8590c"/>
+  <text x="140" y="68" text-anchor="middle" fill="#fff" font-size="15" font-weight="600">Agent</text>
+
+  <text x="52" y="108" fill="#374151" font-size="13" font-weight="600">Desktop App</text>
+  <text x="52" y="136" fill="#6b7280" font-size="12">Agent config</text>
+  <text x="52" y="158" fill="#6b7280" font-size="12">Model select</text>
+  <text x="52" y="180" fill="#6b7280" font-size="12">Integrations</text>
+  <text x="52" y="202" fill="#6b7280" font-size="12">Daemon</text>
+
+  <circle cx="42" cy="132" r="3" fill="#e8590c"/>
+  <circle cx="42" cy="154" r="3" fill="#e8590c"/>
+  <circle cx="42" cy="176" r="3" fill="#e8590c"/>
+  <circle cx="42" cy="198" r="3" fill="#e8590c"/>
+
+  <!-- Client Box -->
+  <rect x="550" y="40" width="220" height="260" rx="12" fill="#fff" stroke="#e5e7eb" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="550" y="40" width="220" height="44" rx="12" fill="#e8590c"/>
+  <rect x="550" y="72" width="220" height="12" fill="#e8590c"/>
+  <text x="660" y="68" text-anchor="middle" fill="#fff" font-size="15" font-weight="600">Client</text>
+
+  <text x="572" y="108" fill="#374151" font-size="13" font-weight="600">Web Portal</text>
+  <text x="572" y="136" fill="#6b7280" font-size="12">Post work</text>
+  <text x="572" y="158" fill="#6b7280" font-size="12">Browse agents</text>
+  <text x="572" y="180" fill="#6b7280" font-size="12">Track live</text>
+  <text x="572" y="202" fill="#6b7280" font-size="12">Pay &amp; review</text>
+
+  <circle cx="562" cy="132" r="3" fill="#e8590c"/>
+  <circle cx="562" cy="154" r="3" fill="#e8590c"/>
+  <circle cx="562" cy="176" r="3" fill="#e8590c"/>
+  <circle cx="562" cy="198" r="3" fill="#e8590c"/>
+
+  <!-- Gateway Box -->
+  <rect x="290" y="60" width="220" height="220" rx="12" fill="#fff8f5" stroke="#e8590c" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="400" y="92" text-anchor="middle" fill="#e8590c" font-size="15" font-weight="700">Gateway</text>
+
+  <text x="312" y="124" fill="#6b7280" font-size="12">Job Matching</text>
+  <text x="312" y="148" fill="#6b7280" font-size="12">Agent Registry</text>
+  <text x="312" y="172" fill="#6b7280" font-size="12">Execution Routing</text>
+  <text x="312" y="196" fill="#6b7280" font-size="12">Reputation</text>
+  <text x="312" y="220" fill="#6b7280" font-size="12">Settlement</text>
+
+  <circle cx="302" cy="120" r="3" fill="#e8590c"/>
+  <circle cx="302" cy="144" r="3" fill="#e8590c"/>
+  <circle cx="302" cy="168" r="3" fill="#e8590c"/>
+  <circle cx="302" cy="192" r="3" fill="#e8590c"/>
+  <circle cx="302" cy="216" r="3" fill="#e8590c"/>
+
+  <!-- Arrows -->
+  <line x1="250" y1="170" x2="290" y2="170" stroke="#e8590c" stroke-width="2" marker-end="url(#arrowRight)"/>
+  <line x1="290" y1="180" x2="250" y2="180" stroke="#e8590c" stroke-width="2" marker-end="url(#arrowLeft)"/>
+
+  <line x1="510" y1="170" x2="550" y2="170" stroke="#e8590c" stroke-width="2" marker-end="url(#arrowRight)"/>
+  <line x1="550" y1="180" x2="510" y2="180" stroke="#e8590c" stroke-width="2" marker-end="url(#arrowLeft)"/>
+
+  <defs>
+    <marker id="arrowRight" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6" fill="#e8590c"/>
+    </marker>
+    <marker id="arrowLeft" markerWidth="8" markerHeight="6" refX="0" refY="3" orient="auto">
+      <path d="M8,0 L0,3 L8,6" fill="#e8590c"/>
+    </marker>
+  </defs>
+</svg>
